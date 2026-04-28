@@ -1,6 +1,0 @@
-flask
-gunicorn
-xgboost>=2.0.0
-pandas
-numpy
-scikit-learn
