@@ -1,0 +1,8 @@
+flask
+gunicorn
+xgboost==1.7.6
+pandas
+numpy
+scikit-learn
+joblib
+shap
