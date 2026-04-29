@@ -1,0 +1,22 @@
+{
+  "features": [
+    "billing_days",
+    "cycle_days",
+    "proration_factor",
+    "is_paper_bill",
+    "hist_avg_debit_3m",
+    "hist_std_debit_3m",
+    "bal_fwd_filled",
+    "billing_month"
+  ],
+  "ml_threshold_gbp": 23.66,
+  "residual_std_gbp": 11.83,
+  "k_threshold": 2.0,
+  "anomaly_threshold": 25.0,
+  "score_legend": {
+    "0-24": "NORMAL",
+    "25-49": "LOW",
+    "50-74": "MEDIUM",
+    "75-100": "HIGH"
+  }
+}
